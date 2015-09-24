@@ -29,7 +29,10 @@ class CgminerAPI(object):
             sock.shutdown(socket.SHUT_RDWR)
             sock.close()
 
-        return json.loads(received[:-1])
+        try:
+            return json.loads(received[:-1])
+        except:
+            pass
 
     def _receive(self, sock, size=4096):
         msg = ''
