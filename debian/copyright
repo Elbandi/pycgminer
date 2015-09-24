@@ -1,0 +1,8 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: pycgminer
+Source: https://github.com/tsileo/pycgminer
+
+Files: *
+Copyright: Copyright (c) 2013 Thomas Sileo
+License: MIT
+ For details see http://opensource.org/licenses/MIT.
